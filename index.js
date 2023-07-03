@@ -8,8 +8,11 @@ function increment() {
 }
 
 function decrement(){
-    countEl.textContent -=1
-    count-=1
+    if(count>0){ 
+        countEl.textContent -=1
+        count-=1
+    }
+   
 }
 
 function save() {
